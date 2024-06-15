@@ -80,15 +80,15 @@ nav ul li a:hover {
     overflow: hidden;
     max-width: 100%;
     background: #000;
-    margin-bottom: 40px; /* Adjusted to move video down */
+    margin-bottom: 20px; /* 기본 간격 */
 }
 
 .video-container:first-child {
-    margin-top: 40px; /* Adjusted to move the first video down */
+    margin-top: 50px; /* 상단 간격 */
 }
 
-.video-container:nth-child(4) {
-    margin-top: 40px; /* Adjusted to move the fourth video down */
+.video-container:nth-child(5) {
+    margin-top: 100px; /* 3번째와 4번째 간격 */
 }
 
 .video-container iframe {
@@ -99,17 +99,12 @@ nav ul li a:hover {
     height: 100%;
 }
 
-.video-label {
-    position: absolute;
-    width: 100%;
-    top: -40px; /* Adjusted to move label up */
+.section-title {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 24px;
     font-weight: bold;
-    color: #fff;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px 0;
-    margin: 0;
+    margin: 40px 0 20px 0; /* 상단 및 하단 간격 조정 */
+    color: #333;
 }
 
 .center-content {
