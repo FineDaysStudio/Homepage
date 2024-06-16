@@ -32,7 +32,8 @@ header {
 }
 
 .header-logo {
-    width: 100px; /* Adjust as necessary */
+    width: 330px; /* Adjust as necessary */
+    cursor: pointer; /* Change cursor to pointer on hover */
 }
 
 nav ul {
@@ -52,6 +53,7 @@ nav ul li a {
     color: #333;
     font-size: 16px;
     transition: color 0.3s, font-size 0.3s;
+    cursor: pointer; /* Change cursor to pointer on hover */
 }
 
 nav ul li a:hover {
